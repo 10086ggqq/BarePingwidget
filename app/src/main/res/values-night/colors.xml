@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与原 HTML 页面一致的深色主题色板 -->
+    <color name="page_bg">#0F1117</color>
+    <color name="card_bg">#80000000</color>
+    <color name="card_border">#14FFFFFF</color>
+    <color name="text_primary">#E5E7EB</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="divider">#0FFFFFFF</color>
+    <color name="toggle_bg">#1FFFFFFF</color>
+
+    <!-- 状态色（深色） -->
+    <color name="status_green">#4ADE80</color>
+    <color name="status_yellow">#FBBF24</color>
+    <color name="status_red">#F87171</color>
+    <color name="status_unknown">#6B7280</color>
+</resources>

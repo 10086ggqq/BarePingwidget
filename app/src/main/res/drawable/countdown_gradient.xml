@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 还原 HTML：绿→黄→红 渐变倒计时条；clip 包裹使 ProgressBar 按进度裁剪显示 -->
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipOrientation="horizontal"
+    android:gravity="start">
+    <shape android:shape="rectangle">
+        <gradient
+            android:angle="0"
+            android:startColor="@color/status_green"
+            android:centerColor="@color/status_yellow"
+            android:endColor="@color/status_red"
+            android:type="linear" />
+    </shape>
+</clip>

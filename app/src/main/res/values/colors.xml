@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与原 HTML 页面一致的浅色主题色板 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 页面语义色（浅色） -->
+    <color name="page_bg">#F0F2F5</color>
+    <color name="card_bg">#F2FFFFFF</color>
+    <color name="card_border">#CCFFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_muted">#9CA3AF</color>
+    <color name="divider">#0F000000</color>
+    <color name="toggle_bg">#14000000</color>
+
+    <!-- 状态色（浅色） -->
+    <color name="status_green">#22C55E</color>
+    <color name="status_yellow">#F59E0B</color>
+    <color name="status_red">#EF4444</color>
+    <color name="status_unknown">#9CA3AF</color>
+</resources>

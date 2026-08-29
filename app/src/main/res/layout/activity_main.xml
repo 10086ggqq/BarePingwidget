@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:padding="20dp">
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 卡片头部：标题 + 主题切换 + 设置 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/card_title"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"
+                    android:letterSpacing="0.02" />
+
+                <ImageButton
+                    android:id="@+id/theme_toggle"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/toggle_bg"
+                    android:contentDescription="@string/card_title"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_theme_auto" />
+
+                <ImageButton
+                    android:id="@+id/settings_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/toggle_bg"
+                    android:contentDescription="@string/settings_title"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_settings" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/status_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:overScrollMode="never" />
+
+            <TextView
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:text="@string/testing"
+                android:textColor="@color/text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- 底部倒计时渐变条，还原 HTML countdown-bar -->
+        <ProgressBar
+            android:id="@+id/countdown_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:max="1000"
+            android:progressDrawable="@drawable/countdown_gradient" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,65 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java / Kotlin class files
+*.class
+*.kotlin_metadata
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+.gradle/caches/
+.gradle/configuration-cache/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration (SDK path, keys) — NEVER commit
+local.properties
+gradle.properties.local
+*.keystore
+*.jks
+signing.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/misc.xml
+/.idea/codeStyles/
+/.idea/inspectionProfiles/
+/.idea/vcs.xml
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Compose / Layout Inspector / Profiler
+*.hprof
+*.stacktrace
+
+# NDK
+local.properties
+
+# Keep screenshots tracked (doc/ contains doc/1.jpg, doc/2.jpg, …)
+!doc/

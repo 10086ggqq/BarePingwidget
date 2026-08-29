@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BarePingwidget" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#3FB950</item>
+        <item name="colorPrimaryVariant">#2C974B</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/page_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowBackground">@color/page_bg</item>
+    </style>
+</resources>
