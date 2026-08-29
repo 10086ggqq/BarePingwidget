@@ -153,18 +153,6 @@ BarePingWidget/
 
 ---
 
-## Screenshots
-
-> Place screenshots under `doc/` named `1.jpg`, `2.jpg`, … so GitHub renders them automatically.
-
-![Main screen and status list](doc/1.jpg)
-
-![Home-screen widgets (three sizes)](doc/2.jpg)
-
-![Settings: notification toggle and custom sites](doc/3.jpg)
-
----
-
 ## License
 
 This project is open source under the **MIT License**.
