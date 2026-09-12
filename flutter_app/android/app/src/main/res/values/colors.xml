@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与原项目 res/values/colors.xml 一致的状态色与语义色（供桌面小组件使用） -->
+    <color name="status_green">#22C55E</color>
+    <color name="status_yellow">#F59E0B</color>
+    <color name="status_red">#EF4444</color>
+    <color name="status_unknown">#9CA3AF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_muted">#9CA3AF</color>
+</resources>

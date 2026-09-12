@@ -1,0 +1,24 @@
+name: bare_ping_widget
+description: "裸连监测 (BarePingWidget) — Flutter 版：监测 GitHub 等站点能否绕过系统代理直连。"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # 站点列表 / 状态缓存 / 设置项的 SharedPreferences 持久化
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

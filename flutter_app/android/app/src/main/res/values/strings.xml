@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_title">GitHub 状态</string>
+
+    <!-- 桌面小组件（三种尺寸） -->
+    <string name="widget_label_2x2">裸连监测 2x2</string>
+    <string name="widget_label_4x3">裸连监测 4x3</string>
+    <string name="widget_label_1x2">裸连监测 1x2</string>
+    <string name="widget_desc_two">显示前两个站点的裸连状态</string>
+    <string name="widget_desc_full">显示全部站点的裸连状态</string>
+    <string name="widget_desc_single">单行显示第一个站点的裸连状态</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1x2（2 格宽 × 1 格高）紧凑横条：单行显示第一个站点 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <ImageView
+        android:id="@+id/widget_item_dot"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/dot_unknown" />
+
+    <TextView
+        android:id="@+id/widget_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#1A1A2E"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/widget_item_latency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="46dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="end"
+        android:fontFamily="monospace"
+        android:textColor="#9CA3AF"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/widget_refresh"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:padding="3dp"
+        android:src="@drawable/ic_refresh" />
+</LinearLayout>

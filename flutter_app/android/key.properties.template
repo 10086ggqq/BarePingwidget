@@ -1,0 +1,20 @@
+# ⚠️ 此文件仅为本地构建模板，请勿提交！
+#
+# 复制本文件为同目录下的 key.properties，填入你的真实口令后即可出 Release 包：
+#
+#   cp key.properties.template key.properties
+#
+# key.properties 已被 .gitignore 忽略（规则见仓库根 .gitignore 的 **/key.properties）。
+# 未创建 key.properties 时，构建脚本会自动降级为 debug 签名，clone 后仍可直接构建。
+
+# keystore 文件路径，相对 android/app/ 解析，也可填绝对路径
+storeFile=bareping.jks
+
+# keystore 口令
+storePassword=CHANGE_ME
+
+# 密钥别名
+keyAlias=bareping
+
+# 密钥口令
+keyPassword=CHANGE_ME

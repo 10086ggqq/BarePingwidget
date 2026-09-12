@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 与图标 PNG 的白色底边一致，前景安全区外无缝衔接 -->
+<color xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FEFEFE" />

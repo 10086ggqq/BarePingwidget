@@ -1,23 +1,21 @@
-# Built application files
+# ============================================================
+# 裸连监测 (BarePingwidget) — 提交忽略规则
+# ============================================================
+
+# ---------- Android 构建产物 ----------
 *.apk
 *.aar
 *.ap_
 *.aab
-
-# Files for the ART/Dalvik VM
 *.dex
-
-# Java / Kotlin class files
 *.class
 *.kotlin_metadata
-
-# Generated files
 bin/
 gen/
 out/
 release/
 
-# Gradle files
+# ---------- Gradle ----------
 .gradle/
 .gradle/caches/
 .gradle/configuration-cache/
@@ -27,14 +25,16 @@ captures/
 .externalNativeBuild/
 .cxx/
 
-# Local configuration (SDK path, keys) — NEVER commit
+# ---------- 密钥与本机配置（绝不提交） ----------
 local.properties
 gradle.properties.local
 *.keystore
 *.jks
 signing.properties
+key.properties
+**/key.properties
 
-# Android Studio / IntelliJ
+# ---------- Android Studio / IntelliJ ----------
 *.iml
 .idea/
 /.idea/caches/
@@ -51,15 +51,23 @@ signing.properties
 .DS_Store
 Thumbs.db
 
-# Kotlin
+# ---------- Kotlin ----------
 .kotlin/
 
-# Compose / Layout Inspector / Profiler
+# ---------- Flutter / Dart ----------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/app/
+
+# ---------- Compose / Profiler ----------
 *.hprof
 *.stacktrace
 
-# NDK
-local.properties
-
-# Keep screenshots tracked (doc/ contains doc/1.jpg, doc/2.jpg, …)
-!doc/
+# ---------- 工作区辅助文件 ----------
+.workbuddy/
+_*.txt
+_*.tmp
